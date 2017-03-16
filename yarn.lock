@@ -1651,6 +1651,17 @@ ember-cli-release@^0.2.9:
     semver "^4.3.1"
     silent-error "^1.0.0"
 
+ember-cli-sass@6.1.2:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/ember-cli-sass/-/ember-cli-sass-6.1.2.tgz#537217511b3d57d3f0e0073fb2ccbca4e07fce34"
+  dependencies:
+    broccoli-funnel "^1.0.0"
+    broccoli-merge-trees "^1.1.0"
+    broccoli-sass-source-maps "^2.0.0"
+    ember-cli-babel "^5.1.10"
+    ember-cli-version-checker "^1.0.2"
+    merge "^1.2.0"
+
 ember-cli-sass@^6.0.0:
   version "6.0.0"
   resolved "https://registry.npmjs.org/ember-cli-sass/-/ember-cli-sass-6.0.0.tgz#31c9c8fa789c0d25aaf8e315431b7a3ec4ba0175"
@@ -3960,7 +3971,7 @@ npm-user-validate@~0.1.5:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/npm-user-validate/-/npm-user-validate-0.1.5.tgz#52465d50c2d20294a57125b996baedbf56c5004b"
 
-npm@3.10.8:
+npm@3.10.8, npm@>=2.0.0:
   version "3.10.8"
   resolved "https://registry.yarnpkg.com/npm/-/npm-3.10.8.tgz#8f76ff8c6da04b61dd371d554ce40a0b8916c15e"
   dependencies:
